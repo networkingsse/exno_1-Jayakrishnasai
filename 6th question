@@ -2,7 +2,7 @@
 import threading
 import time
 
-CAPACITY =int(input("Enter the value:"))
+CAPACITY =int(input("Enter the value of capacity:"))
 buffer = [-1 for i in range(CAPACITY)]
 in_index = 0
 out_index = 0
